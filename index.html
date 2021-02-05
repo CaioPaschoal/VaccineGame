@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Vaccine, GO! Game</title>
+</head>
+<body>
+    <header>
+        <h1 class="maintitle container-fluid">Vaccine, GO!   <i class="fas fa-syringe syringe"></i></h1>
+    </header>
+    <div class="container-fluid main">
+        <div class="container panel">
+            <div class="row mainrow">
+                <div class="instructions-panel col-md-6">
+                    <div class="subtitle">
+                        <h3>Game "Vaccine, GO!"</h3>
+                        <p>The game Vaccine, GO! is based on the 90's classic Snake Game mobile, and it aims to remind you about the importance of vaccines against viruses.</p>
+                    </div>
+                    <div class="instructions container">
+                        <h5 class="instruction-title">Instructions</h5>
+                        <div class="col-md-8">
+                            <ul class="list-group instructions-list">
+                                <li class="list-group-item list-group-item-secondary"><i class="fas fa-walking"></i> Move your character</li>
+                                <li class="list-group-item list-group-item-danger"><i class="fas fa-virus"></i> Avoid the virus!</li>
+                                <li class="list-group-item list-group-item-info"><i class="fas fa-syringe"></i> Get the syringes!</li>
+                                <li class="list-group-item list-group-item-success"><i class="fas fa-users"></i> Grow your group</li>
+                            </ul>
+                            <button type="button" class="btn btn-danger btn-start" onclick="btnStart()">Start</button>
+                            <a href="index.html"><button" class="btn btn-danger btn-restart">Refresh</button></a>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    <div class="controls container">
+                        <h5 class="controls-title">Controls</h5>
+                        <div class="col-md-8">
+                            <ul class="list-group list-group-flush controls-list">
+                                <li class="list-group-item"><i class="fas fa-arrow-up"></i> or <span class="badge bg-secondary">W</span>: UP</li>
+                                <li class="list-group-item"><i class="fas fa-arrow-down"></i> or <span class="badge bg-secondary">A</span>: DOWN</li>
+                                <li class="list-group-item"><i class="fas fa-arrow-left"></i> or <span class="badge bg-secondary">S</span>: LEFT</li>
+                                <li class="list-group-item"><i class="fas fa-arrow-right"></i> or <span class="badge bg-secondary">D</span>: RIGHT</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+                <div class="canvas col-md-6">
+                    <div class="container-fluid">
+                        <div class="row score-panel">
+                            <h4 id="score">Score: 0</h4>
+                        </div>
+                        <div class="row">
+                            <canvas id="vaccine-go" width="512" height="512"></canvas>
+                            <h5 id="gameover"></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer container-fluid">
+        <p>Game developed by <a href="https://github.com/CaioPaschoal" target="_blank">Caio Paschoal</a>, inspired by project of <a href="https://br.linkedin.com/in/gabrielapinheiro129" target="_blank">Gabriela Pinheiro</a> for the <a href="https://digitalinnovation.one/" target="_blank">Digital Innovation One</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/06a2ffce95.js" crossorigin="anonymous"></script>
+</body>
+</html>
