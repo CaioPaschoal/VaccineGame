@@ -8,7 +8,7 @@
 
 ##### Browser print screen
 <p align="center">
-    <img alt="Browser print screen" src="/printscreen/printscreen.jpg">
+    <img alt="Browser print screen" src="printscreen/printscreen.JPG">
 </p>
 
 ---
