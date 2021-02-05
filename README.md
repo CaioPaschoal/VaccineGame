@@ -2,7 +2,7 @@
 
 #### The game Vaccine, GO! is based on the classic Snake Game for 90's mobile, using JavaScript, HTML and CSS.
 
-#### Play here [Vaccine, GO!](https://caiopaschoal.github.io/VaccineGame/)
+#### Play here [Vaccine, GO!](https://caiopaschoal.github.io/VaccineGame/) :syringe:
 
 ---
 
