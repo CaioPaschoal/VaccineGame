@@ -13,4 +13,4 @@
 
 ---
 
-###### _Game developed by Caio Paschoal, inspired by project of [Gabriela Pinheiro Aguiar](https://br.linkedin.com/in/gabrielapinheiro129/) for the [Digital Innovation One](https://web.digitalinnovation.one/home)_
+###### _Game developed by Caio Paschoal, inspired by project of [Gabriela Pinheiro](https://br.linkedin.com/in/gabrielapinheiro129/) for the [Digital Innovation One](https://web.digitalinnovation.one/home)_
